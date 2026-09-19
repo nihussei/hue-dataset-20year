@@ -1,4 +1,4 @@
-## Complete implemented scope
+## Scope
 
 * HUE load/solar ingestion and 20-year multivariate seasonal moving-block augmentation.
 * Whole-year chronological train/validation/test split with no temporal overlap.
