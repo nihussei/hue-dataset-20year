@@ -28,7 +28,7 @@ These errors quantify the lag-based decision forecasts used by MPC.
 
 ## Augmentation validation
 
-Source-vs-generated statistics are shown per prosumer; see the methodology file for the complete algorithm.
+Source vs. generated statistics are shown per prosumer; see the methodology file for the complete algorithm.
 
 |prosumer\_id|source\_house\_id|historical\_mean\_kwh|augmented\_first\_year\_mean\_kwh|historical\_p95\_kwh|augmented\_first\_year\_p95\_kwh|historical\_acf1|augmented\_first\_year\_acf1|historical\_acf24|augmented\_first\_year\_acf24|
 |-|-|-|-|-|-|-|-|-|-|
