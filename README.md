@@ -30,4 +30,5 @@ contains every prosumer/year total. Defaults are 2021–2040, seed 42.
 
 # References
 Original downloadable dataset: https://doi.org/10.7910/DVN/N3HGRN
+
 Original dataset documentation: https://doi.org/10.1016/j.dib.2019.103744
