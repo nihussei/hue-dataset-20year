@@ -1,0 +1,7 @@
+{
+  "trajectories_checked": 48,
+  "energy_balance_pass": true,
+  "soc_limits_pass": true,
+  "no_simultaneous_charge_discharge_pass": true,
+  "maximum_energy_balance_error_kwh": 7.105427357601002e-15,
+}
