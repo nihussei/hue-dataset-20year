@@ -1,4 +1,4 @@
-"""Reproduce Client Revision 01 with fixed validated D3QN models.
+"""Reproduce Revision 01 with fixed validated D3QN models.
 
 Usage:
     python scripts/run_client_revision_01.py --hue-root /path/to/HUE --output revision01_results
