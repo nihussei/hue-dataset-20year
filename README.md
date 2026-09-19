@@ -15,7 +15,7 @@ Data is anonymized to protect donor identities.
 3. Estimate a month × day-of-week × hour template per home.
 4. Obtain a multivariate residual matrix by subtracting the templates.
 5. Resample 168-hour residual blocks jointly across homes, preferring the same
-month. This retains serial and cross-house dependence.
+month to retain serial and cross-house dependence.
 6. Add a shared AR(1) innovation (`phi=0.92`, SD `0.025`) and 0.7% annual load growth.
 
 ## PV and forecasts
