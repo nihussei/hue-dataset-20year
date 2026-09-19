@@ -17,8 +17,6 @@ stored separately throughout the environment.
 
 - Rule-Based uses current measured load/PV/grid/price.
 - MPC uses current status plus forecast load, PV, RTP and availability.
-- Policy switching clones the live BESS/billing state, substitutes forecast
-  streams, and compares candidate next-hour rewards.
 - Reported cost, PV, reliability, degradation and reward use realised held-out
   data.
 
