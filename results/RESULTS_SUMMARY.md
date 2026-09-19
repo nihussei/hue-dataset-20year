@@ -1,7 +1,5 @@
 # Results Summary
 
-**Data source:** `HUE\_observed\_profiles\_multivariate\_20year\_augmentation`
-
 HUE residential files provide the observed source profiles. The 20-year series is a labelled multivariate seasonal block-bootstrap scenario, not 20 measured years. `Solar.csv` supplies the PV shape. Load/PV forecasts are causal. Outages are reproducible research scenarios. RTP is anchored to historical EIA/ICE Mid-C daily prices converted with Bank of Canada FX; its intraday residential component is modeled and is not a historical BC Hydro residential RTP product.
 
 ## Simulated outage scenario
