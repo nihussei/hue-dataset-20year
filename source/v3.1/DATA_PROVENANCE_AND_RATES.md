@@ -2,8 +2,7 @@
 
 ## Energy data
 
-The client-confirmed HUE source is Harvard Dataverse DOI
-`10.7910/DVN/N3HGRN`; the project accepts the Kaggle mirror
+Harvard Dataverse DOI:`10.7910/DVN/N3HGRN`; the project accepts the Kaggle mirror
 `noahjanes/hourly-energy-usage-buildings-in-british-columbia`. Loads come from
 `Residential\_\*.csv`, and `Solar.csv` is converted from watt scale to hourly kWh.
 
