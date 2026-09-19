@@ -4,7 +4,7 @@ The supplied `LSTM_forecast_20yr.py` is retained for provenance but is not a
 complete executable community forecast input: it references external HUE files
 and checkpoints, and the active export path covers only one household.
 
-This milestone therefore creates reproducible, causal forecasts directly from
+This creates reproducible, causal forecasts directly from
 the selected HUE histories:
 
 ```text
