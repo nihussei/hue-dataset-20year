@@ -1,0 +1,2 @@
+start_year,years,block_hours,residual_weight,annual_load_growth,annual_pv_degradation,community_ar_phi,community_ar_sigma,seed
+2021,20,168,0.8,0.007,0.005,0.92,0.025,42
