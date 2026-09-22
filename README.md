@@ -1,4 +1,4 @@
-# Augmented 20-Year Hourly Usage of Energy (HUE) Dataset for Buildings in British Columbia
+# Augmented 20-Year Hourly Usage of Energy (HUE) Dataset for Buildings in British Columbia with Real-Time Prices & Grid-Outage Events
 
 The original HUE dataset (https://github.com/smakonin/HUE.dataset) consists of hourly energy data from 28 residential households that are customers of power utility BC Hydro, along with corresponding weather data from the nearest weather station. As of 2026, each household has at most 3 years of data.
 
