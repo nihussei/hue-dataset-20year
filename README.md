@@ -14,7 +14,7 @@ Data is anonymized to protect donor identities.
 hue-dataset-20year-main/
 ├── LICENSE                          MIT license
 ├── README.md                        Dataset overview, augmentation summary, references
-├── raw/                             Original HUE seed data (~16 MB)
+├── raw/                             Original HUE seed data
 │   ├── Residential_1.csv ... Residential_28.csv
 │   │                                28 household hourly load files
 │   │                                (date, hour, energy_kWh)
@@ -27,7 +27,7 @@ hue-dataset-20year-main/
 │   └── Holidays.csv                 Daily calendar covariates
 │                                    (day, weekend, holiday, dst; 2012-2018)
 ├── source/
-│   └── v3.1/                        Augmentation & control pipeline code (~3.6 MB)
+│   └── v3.1/                        Augmentation & control pipeline code 
 │       ├── microgrid_opt/            Core Python package
 │       │   ├── augmentation.py       20-year block-bootstrap load/PV generator
 │       │   ├── core.py               Canonical schema definition & validation
@@ -56,7 +56,7 @@ hue-dataset-20year-main/
 │       │                              validation run)
 │       ├── requirements.txt
 │       └── pytest.ini
-└── results/                          Outputs of one pipeline run (~0.9 MB)
+└── results/                          Outputs of one pipeline run 
     ├── RESULTS_SUMMARY.md             Narrative summary of the run
     ├── VALIDATION_CHECKS.json         Energy-balance / SoC self-consistency checks
     ├── figures/
