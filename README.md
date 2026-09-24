@@ -2,9 +2,7 @@
 
 The original HUE dataset (https://github.com/smakonin/HUE.dataset) consists of hourly energy data from 28 residential households that are customers of power utility BC Hydro, along with corresponding weather data from the nearest weather station. As of 2026, each household has at most 3 years of data.
 
-Household and weather data are augmented to provide 20 observed years. Every generated row is marked `is_augmented = 1`; a reproducible scenario generator.
-
-The 20-year series (2021-2040) is a labelled multivariate seasonal block-bootstrap scenario for 10 prosumers. `Solar.csv` supplies the PV shape. Load/PV forecasts are causal. Outages are reproducible research scenarios. Real-time pricing (RTP) is anchored to historical EIA/ICE Mid-C daily prices converted with Bank of Canada FX; its intraday residential component is modeled and is not a historical BC Hydro residential RTP product.
+The augmented 20-year series (2021-2040) is a labelled multivariate seasonal block-bootstrap scenario for 10 prosumers. `Solar.csv` supplies the PV shape. Load/PV forecasts are causal. Outages are reproducible research scenarios. Real-time pricing (RTP) is anchored to historical EIA/ICE Mid-C daily prices converted with Bank of Canada FX; its intraday residential component is modeled and is not a historical BC Hydro residential RTP product. Every generated row is marked `is_augmented = 1`; a reproducible scenario generator.
 
 Data is anonymized to protect donor identities.
 
